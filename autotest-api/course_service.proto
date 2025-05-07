@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package userservice;
+
+message GetCourseRequest {
+    string course_id = 1;
+}
+
+message GetCourseResponse{
+    string course_id = 1;
+    string title = 1;
+    string description = 1;
+}
+
+service CourseService {
+   rpc GetUser (GetUserRequest) returns (GetUserResponse);
+}
