@@ -1,7 +1,6 @@
-from ..api_client import APIClient
-from  httpx import Response
+from httpx import Response
 from typing import TypedDict
-
+from clients.api_client import APIClient
 class LoginRequestDict(TypedDict):
     """
     Описание структуры запроса на аутентификацию.
