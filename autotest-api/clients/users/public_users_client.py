@@ -2,6 +2,19 @@ from ..api_client import APIClient
 from  httpx import Response
 from typing import TypedDict
 
+from ..public_http_builder import get_public_http_client
+
+
+
+class User(TypedDict):
+    """
+    Описание структуры пользователя
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
 class CreateUserDict(TypedDict):
     """
     Описание структуры запроса на создание пользователя
@@ -11,6 +24,12 @@ class CreateUserDict(TypedDict):
     lastName: str
     firstName: str
     middleName: str
+
+class CreateUserResponseDict(TypedDict):
+    """
+    Описание структуры для ответа
+    """
+    user: User
 
 class PublicUsersClient(APIClient):
     """
@@ -30,5 +49,12 @@ class PublicUsersClient(APIClient):
         """
         return self.post("/api/v1/users", json=request)
 
-
-
+    def create_user(self, request: CreateUserDict) -> CreateUserResponseDict:
+        response = self.create_user_api(request)
+        return response.json()
+def get_public_users_client() -> PublicUsersClient:
+    """
+    Функция создает экземпляр PublicUsersClient с базовыми настройками HTTP-клиента
+    :return: Готовый к использованию объект PublicUsersClient
+    """
+    return PublicUsersClient(client=get_public_http_client())
