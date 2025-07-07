@@ -1,13 +1,12 @@
 import httpx
 from tools.fakers import get_random_email
 payload = {
-    "email": get_random_email(),
-    "password": "string",
-    "lastName": "string",
-    "firstName": "string",
-    "middleName": "string"
+    "email":get_random_email(),
+    "password":"1234",
+    "lastName":"Бороков",
+    "firstName":"Тимур",
+    "middleName":"Хамидбиевич"
 }
-response = httpx.post("http://localhost:8000/api/v1/users", json=payload)
-
+response = httpx.post("http://127.0.0.1:8000/api/v1/users", json=payload)
 print(response.status_code)
 print(response.json())
