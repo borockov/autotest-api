@@ -12,7 +12,7 @@ print("Код ответа:", login_response.status_code)
 print("Ответ с JSON токенами:", login_response_data)
 
 usr_headers = {
-    "Authorization": f'Bearer {login_response_data['token']['accessToken']}'
+    "Authorization": f'Bearer {login_response_data["token"]["accessToken"]}'
 }
 
 user_me = httpx.get("http://localhost:8000/api/v1/users/me", headers=usr_headers)
