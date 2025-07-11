@@ -1,13 +1,9 @@
 
+def test_first_try():
+    print("Hello world")
 
-def test_user_login():
-    pass
+def test_assert_positiv_case():
+    assert (2 + 2) == 4
 
-
-class TestUserAuthentication:
-    def test_create_user(self):
-        pass
-
-    def test_update_user(self):
-        pass
-
+def test_assert_negative_case():
+    assert (2 + 2) == 5
