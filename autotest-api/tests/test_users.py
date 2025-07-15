@@ -7,7 +7,7 @@ from tools.assertions.users import assert_create_user_response
 import pytest
 
 @pytest.mark.users
-@pytest.mark.regressions
+@pytest.mark.regression
 def test_create_user():
     public_users_client = get_public_users_client()
 

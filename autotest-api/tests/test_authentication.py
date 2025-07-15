@@ -9,8 +9,10 @@ from tools.assertions.base import assert_status_code
 
 from clients.users.public_users_client import get_public_users_client
 from clients.authentication.authentication_client import get_authentication_client
+import pytest
 
-
+@pytest.mark.regression
+@pytest.mark.authentication
 def test_login():
     users_client = get_public_users_client()
     auth_client = get_authentication_client()
