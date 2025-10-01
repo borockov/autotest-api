@@ -2,11 +2,11 @@ import time
 from faker import Faker
 
 
-
 class Fake:
     """
     Класс для генерации случайных тестовых данных с ипользованием библиотеки Faker
     """
+
     def __init__(self, faker: Faker):
         """
         :param faker: Экземпляр класса Faker, который будет использоваться для генерации данных
@@ -27,12 +27,15 @@ class Fake:
         """
         return self.faker.uuid4()
 
-    def email(self) ->str:
+    def email(self, domain: str | None = None) -> str:
         """
-        Генерирует случайный EMAIL
-        :return: Случайный EMAIL
+        Генерирует случайный email.
+
+        :param domain: Домен электронной почты (например, "example.com").
+        Если не указан, будет использован случайный домен.
+        :return: Случайный email.
         """
-        return self.faker.email()
+        return self.faker.email(domain=domain)
 
     def sentence(self) -> str:
         """
@@ -75,12 +78,13 @@ class Fake:
         :return: От 1 до 100
         """
         return self.faker.random_int(start, end)
+
     def estimated_time(self) -> str:
         """
         Генерирует время прохождение курса на основе функции integer
         :return: Время прохождения курса
         """
-        return f"{self.integer(1,10)} weeks"
+        return f"{self.integer(1, 10)} weeks"
 
     def max_score(self) -> int:
         """
@@ -95,5 +99,6 @@ class Fake:
         :return: от 1 до 30
         """
         return self.integer(start=1, end=30)
+
 
 fake = Fake(faker=Faker("ru_RU"))

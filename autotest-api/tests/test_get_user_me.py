@@ -1,7 +1,7 @@
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.users_schema import CreateUserResponseSchema
 from tools.assertions.base import assert_status_code
-from tools.assertions.users import assert_user, assert_get_user
+from tools.assertions.users import assert_user, assert_get_user_response
 from tools.assertions.schema import validate_json_schema
 import pytest
 from http import HTTPStatus
