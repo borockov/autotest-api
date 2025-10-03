@@ -11,14 +11,16 @@ class CourseFixture:
     request: CreateCourseRequestSchema
     response: CreateCourseResponseSchema
 
+
 @pytest.fixture
-def courses_client(function_user: UserFixture)-> CoursesClient:
+def courses_client(function_user: UserFixture) -> CoursesClient:
     return get_courses_client(function_user.authentication_user)
+
 
 def function_courses(
         courses_client: CoursesClient,
         function_user: UserFixture,
-        function_file: FileFixture)-> CourseFixture:
+        function_file: FileFixture) -> CourseFixture:
     request = CreateCourseRequestSchema(
         previewFileId=function_file.response.file.id,
         createdByUserId=function_user.response.user.id
