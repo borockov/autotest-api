@@ -7,7 +7,7 @@ from fixtures.users import UserFixture
 from fixtures.files import FileFixture
 
 
-class CourseFixture:
+class CourseFixture(BaseModel):
     request: CreateCourseRequestSchema
     response: CreateCourseResponseSchema
 

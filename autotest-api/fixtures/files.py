@@ -1,5 +1,4 @@
 import pytest
-from httpx import request
 from pydantic import BaseModel
 
 from clients.files.files_client import get_files_client, FilesClient
