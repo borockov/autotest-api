@@ -1,7 +1,6 @@
 from http import HTTPStatus
 
 import pytest
-from uuid import uuid4
 
 from clients.erros_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
