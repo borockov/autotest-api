@@ -1,4 +1,4 @@
-from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseResponseSchema, CreateExerciseRequestSchema
+from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseResponseSchema, CreateExerciseRequestSchema, GetExerciseResponseSchema
 from tools.assertions.base import assert_equal
 
 
@@ -17,3 +17,19 @@ def assert_create_exercise_response(actual: CreateExerciseRequestSchema, expecte
     assert_equal(expected.exercise.order_index, actual.order_index, "order_index")
     assert_equal(expected.exercise.description, actual.description, "description")
     assert_equal(expected.exercise.estimated_time, actual.estimated_time, "estimated_time")
+
+
+def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
+    assert_equal(actual.id, expected.id, "id")
+    assert_equal(actual.title, expected.title, "title")
+    assert_equal(actual.course_id, expected.course_id, "course_id")
+    assert_equal(actual.max_score, expected.max_score, "max_score")
+    assert_equal(actual.min_score, expected.min_score, "min_score")
+    assert_equal(actual.order_index, expected.order_index, "order_index")
+    assert_equal(actual.description, expected.description, "description")
+    assert_equal(actual.estimated_time, expected.estimated_time, "estimated_time")
+
+
+def asser_get_exercise_response(actual: GetExerciseResponseSchema, expected: CreateExerciseResponseSchema):
+    """Проверяет что тело ответ совпадает с ожидаемым телом ответа"""
+    assert_exercise(actual.exercise, expected.exercise)
