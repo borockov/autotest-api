@@ -1,5 +1,7 @@
-from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseResponseSchema, CreateExerciseRequestSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
-from tools.assertions.base import assert_equal
+from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseResponseSchema, \
+    CreateExerciseRequestSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, \
+    GetExercisesResponseSchema
+from tools.assertions.base import assert_equal, assert_lenght
 from clients.erros_schema import InternalErrorResponseSchema
 from tools.assertions.errors import assert_internal_error_response
 
@@ -37,7 +39,7 @@ def asser_get_exercise_response(actual: GetExerciseResponseSchema, expected: Cre
     assert_exercise(actual.exercise, expected.exercise)
 
 
-def assert_update_exercise_response(request: UpdateExerciseRequestSchema,response: UpdateExerciseResponseSchema):
+def assert_update_exercise_response(request: UpdateExerciseRequestSchema, response: UpdateExerciseResponseSchema):
     """Проверяет на соответствие того, что тело ответа соответствует запросу на обновление задания """
     assert_equal(response.exercise.title, request.title, "title")
     assert_equal(response.exercise.max_score, request.max_score, "max_score")
@@ -56,3 +58,12 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+        get_exercises_response: GetExercisesResponseSchema,
+        create_exercises_responses: list[CreateExerciseResponseSchema]):
+    assert_lenght(get_exercises_response.exercises, create_exercises_responses, "courses")
+
+    for index, create_exercises_responses in enumerate(create_exercises_responses):
+        assert_exercise(get_exercises_response.exercises[index], create_exercises_responses.exercise)
