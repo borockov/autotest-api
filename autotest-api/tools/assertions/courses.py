@@ -18,7 +18,7 @@ def assert_update_course_response(
     assert_equal(response.course.max_score, request.max_score, "max_score")
     assert_equal(response.course.min_score, request.min_score, "min_score")
     assert_equal(response.course.description, request.description, "description")
-    assert_equal(response.course.estimated_time, request, "estimated_time")
+    assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
 
 
 def asser_course(actual: CourseSchema, expected: CourseSchema):
