@@ -15,6 +15,7 @@ from tools.allure.tags import AllureTag
 from tools.allure.stories import AllureStory
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
+from config import settings
 import allure
 from allure_commons.types import Severity
 
@@ -63,7 +64,7 @@ class TestFiles:
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             filename="",
-            upload_file="./testdata/files/images.png"
+            upload_file=settings.test_data.image_png_file
         )
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
@@ -80,7 +81,7 @@ class TestFiles:
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             directory="",
-            upload_file="./testdata/files/images.png"
+            upload_file=settings.test_data.image_png_file
         )
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
