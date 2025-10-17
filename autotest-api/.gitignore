@@ -1,18 +1,10 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+# pycharm
+.idea
 
-# Virtual env
-.venv/
-venv/
-env/
+# python
+.venv
+__pycache__
 
-# IDE
-.idea/
-.vscode/
-*.iml
-
-# pytest cache
-.pytest_cache/
+# allure
+allure-results
+allure-report
