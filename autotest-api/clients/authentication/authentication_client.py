@@ -3,7 +3,7 @@ from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from clients.authentication.authentication_schema import TokenSchema,LoginResponseSchema,LoginRequestSchema, RefreshRequestSchema
 import allure
-
+from tools.routes import APIRoutes
 class AuthenticationClient(APIClient):
     """
     Клиент для работы с /api/v1/authentication
@@ -16,7 +16,7 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/login", json=request.model_dump(by_alias=True)
+        return self.post(f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True)
                          )
     @allure.step("Refresh Token")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
@@ -26,7 +26,7 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/refresh", json=request.model_dump(by_alias=True)
+        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh", json=request.model_dump(by_alias=True)
                          )
 
     # Добавили метод login
