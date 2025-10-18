@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjU2LjE3NTQ4NiIsInVzZXJfaWQiOiIyMTY3NTllYS0yMzliLTRkMTgtOWQ4ZS0xMTgyZmJmOGVlMmYifQ._psJOwBlbSF93NytHdq5_qDgiMlHOr9fN8biHms6sgA' \
+  -H 'content-length: 635' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Второй теория карандаш сходить слать цель освободить.","maxScore":77,"minScore":12,"description":"Плод сынок невыносимый изредка услать выразить развернуться. Потом народ военный выкинуть.\nПлавно прелесть ручей скользить господь. Потрясти издали иной решетка рот освободить дошлый.","estimatedTime":"2 weeks","previewFileId":"1c0986cc-42b8-4e4c-b3c1-d88373c64fef","createdByUserId":"216759ea-239b-4d18-9d8e-1182fbf8ee2f"}'

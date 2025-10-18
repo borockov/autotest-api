@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjUzLjE2Mzk2OSIsInVzZXJfaWQiOiIwOWU3MmZlNC05NzZhLTQ3OTEtYWU1NS1hMTIyZDg4NjMzYzcifQ.bDkg348zAiOB2OoD2uwqbYc6N2rg1W-AtcZck_mFPpY' \
+  -H 'content-length: 591' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Число постоянный тесно потом грудь.","maxScore":75,"minScore":19,"description":"Тяжелый горький материя банда. Неправда бегать цель конференция приятель прелесть.\nЗапретить вытаскивать художественный означать поставить. Академик степь багровый достоинство.","estimatedTime":"4 weeks","previewFileId":"ee3335a0-1161-4319-9ada-5b6c46deae06","createdByUserId":"09e72fe4-976a-4791-ae55-a122d88633c7"}'

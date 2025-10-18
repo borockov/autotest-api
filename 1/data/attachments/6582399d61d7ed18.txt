@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjU2LjE3NTQ4NiIsInVzZXJfaWQiOiIyMTY3NTllYS0yMzliLTRkMTgtOWQ4ZS0xMTgyZmJmOGVlMmYifQ._psJOwBlbSF93NytHdq5_qDgiMlHOr9fN8biHms6sgA' \
+  -H 'content-length: 613' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пропадать сбросить беспомощный неожиданно горький видимо бетонный.","courseId":"5452c136-45d9-4240-a639-f878aaa1ef05","maxScore":82,"minScore":27,"orderIndex":34,"description":"Левый дальний рай господь кидать инфекция. Изменение лететь вскинуть реклама торговля. Растеряться голубчик степь забирать умолять. Вскинуть научить горький ход применяться полюбить.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjU1LjUxNzI5MCIsInVzZXJfaWQiOiI0NjFlM2ZmYi0xZmIwLTRkYzktYmJjYi05ODA2NTgzNGQxYTEifQ.YROwF4tWzbEdL0Q2W94_09uk2YuSSVKVRFILatyjVws' \
+  -H 'content-length: 642' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порода виднеться ныне дальний приходить палец.","maxScore":100,"minScore":23,"description":"Природа товар ленинград мелочь слать написать.\nПолюбить слишком дьявол угодный дурацкий мучительно расстройство советовать. Издали столетие добиться витрина устройство очутиться предоставить.","estimatedTime":"4 weeks","previewFileId":"1701e143-686c-425a-9e3e-d1aff55fe7c7","createdByUserId":"461e3ffb-1fb0-4dc9-bbcb-98065834d1a1"}'

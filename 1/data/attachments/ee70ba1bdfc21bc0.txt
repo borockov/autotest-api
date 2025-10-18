@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjU0LjM0NzE1NiIsInVzZXJfaWQiOiIzY2IwYmFjYi0yMWJhLTQ0MWYtODI1NS0wZTIwNDZlNjhmNzIifQ.-7S7jshVoAB-98BRvpf7ItShSc6DPVUC2Hv6bocrd-Q' \
+  -H 'content-length: 459' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неожиданно лететь военный рис зима монета.","maxScore":74,"minScore":2,"description":"При миф плод монета висеть бегать тысяча. Жить тревога подробность светило трясти выраженный плясать.","estimatedTime":"5 weeks","previewFileId":"3f7f6bfe-96a8-4239-8ddb-7046ff68916b","createdByUserId":"3cb0bacb-21ba-441f-8255-0e2046e68f72"}'

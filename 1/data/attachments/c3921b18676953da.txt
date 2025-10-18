@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjUyLjU2ODc5NCIsInVzZXJfaWQiOiJmNWIzOWRhNC04YWRjLTQ3OTUtYTU3OS03ZDFjMWVmNzZjZjkifQ.-bJqz2FGcIbIr1pHqA3Abglg77FV7St4xryJ4ELr7kA' \
+  -H 'content-length: 535' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дошлый торопливый мусор.","maxScore":83,"minScore":13,"description":"Сопровождаться изображать встать растеряться спалить мальчишка инфекция войти. Полюбить да пропадать заплакать. Приятель засунуть спасть голубчик заработать.","estimatedTime":"6 weeks","previewFileId":"49226273-7eb1-44ed-afea-5c13346425a2","createdByUserId":"f5b39da4-8adc-4795-a579-7d1c1ef76cf9"}'

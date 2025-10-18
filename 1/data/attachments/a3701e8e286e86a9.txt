@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI1OjU2Ljc2NzA2NyIsInVzZXJfaWQiOiI0YzEyYWVmMC03MTMxLTQ3YmMtYWUwYy0xZGRkMjgzMDdhOGYifQ.NJ7EqFCKI1LzlnpgM-sHtOgmNO-EmRF0f8SoqIRmmHk' \
+  -H 'content-length: 513' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Предоставить тесно господь основание аллея.","maxScore":77,"minScore":19,"description":"Штаб скользить непривычный куча единый. Покидать отметить пол назначить четыре. Материя один ломать кожа рабочий спорт потрясти.","estimatedTime":"1 weeks","previewFileId":"f27fb9fc-56ad-4984-96c4-c291828a00ca","createdByUserId":"4c12aef0-7131-47bc-ae0c-1ddd28307a8f"}'
