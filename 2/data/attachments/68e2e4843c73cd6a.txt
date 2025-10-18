@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjUyLjE2NDE1NyIsInVzZXJfaWQiOiJmZmRjZGM4NC05MDBiLTQ4YWMtOWM3NC00ZmYwOGFmMzg4Y2UifQ.60C58LPzMhWumvzaUWf_mUlmDCFiRGBHKJPOqf-W0gA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пасть степь радость услать.","maxScore":80,"minScore":23,"description":"Каюта освободить рай смелый чувство. Неправда цепочка триста цепочка боец.","estimatedTime":"8 weeks","previewFileId":"8db2efba-44e2-4c5b-a89d-7dc12f18139f","createdByUserId":"ffdcdc84-900b-48ac-9c74-4ff08af388ce"}'

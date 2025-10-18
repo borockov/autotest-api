@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjQ5Ljc3MDA2MCIsInVzZXJfaWQiOiI0YjNlMjBmMi01ODk5LTRiMTEtODAxMi02NTE2Y2Y1ZmU4OWUifQ.-S-2rtsX_VchjMd4B2wUcoxzgqqaVKoym2YT9x5qLps' \
+  -H 'content-length: 578' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задрать пол зеленый палата.","maxScore":73,"minScore":19,"description":"Монета невозможно указанный. Ученый палка эффект рота.\nКидать постоянный изменение бак висеть скрытый. Разводить расстройство место изредка освободить направо счастье привлекать.","estimatedTime":"9 weeks","previewFileId":"ba426b88-dbe0-43bf-8629-d4da9d9a81b8","createdByUserId":"4b3e20f2-5899-4b11-8012-6516cf5fe89e"}'

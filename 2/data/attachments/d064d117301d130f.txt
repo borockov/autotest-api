@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjUyLjQzODI2NSIsInVzZXJfaWQiOiJhZGZlOGZjYi00ZDc4LTQ0MjQtYWNiMi0xNjM2NTJkNDViYmQifQ.6eE_omSslrwp6g2bg2NxB4BpeZ9AtsY7qNDZsuulG44' \
+  -H 'content-length: 517' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Редактор триста тяжелый чем заведение.","maxScore":75,"minScore":13,"description":"Выражение о ломать головной умирать юный. Ломать увеличиваться падаль печатать секунда палка рота.\nУточнить спешить при ярко ребятишки.","estimatedTime":"1 weeks","previewFileId":"950ac50f-a110-40de-b301-542d588db1c8","createdByUserId":"adfe8fcb-4d78-4424-acb2-163652d45bbd"}'

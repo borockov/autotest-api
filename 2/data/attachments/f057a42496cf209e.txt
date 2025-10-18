@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjUzLjM2MTI2NCIsInVzZXJfaWQiOiI1MjVmMzU4ZS0wMmQ5LTRmYjEtOTVmNC1hNjEwMTc5NGNjNzEifQ.Sx9w7ImTXHnApEKE9jIvBmlWVa4bg0_ilAerkerG2Q4' \
+  -H 'content-length: 645' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Холодно деньги нажать бригада мальчишка рабочий.","maxScore":61,"minScore":11,"description":"Освободить находить исполнять пропаганда кожа выразить.\nДевка вариант похороны соответствие кольцо песня еврейский. Покидать граница неожиданно палец скрытый адвокат. Видимо некоторый деловой.","estimatedTime":"3 weeks","previewFileId":"77228fd0-2c00-46f1-a036-0ec3075bde52","createdByUserId":"525f358e-02d9-4fb1-95f4-a6101794cc71"}'

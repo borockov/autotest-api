@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5ccb9ded-b315-4e70-b904-b23bc847270d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjQ5Ljc3MDA2MCIsInVzZXJfaWQiOiI0YjNlMjBmMi01ODk5LTRiMTEtODAxMi02NTE2Y2Y1ZmU4OWUifQ.-S-2rtsX_VchjMd4B2wUcoxzgqqaVKoym2YT9x5qLps' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Одиннадцать неожиданно привлекать вообще.","maxScore":89,"minScore":24,"description":"Близко правление поезд выраженный металл песня. Вскакивать избегать результат опасность построить граница угроза мимо.","estimatedTime":"8 weeks"}'

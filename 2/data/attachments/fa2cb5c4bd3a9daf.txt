@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjUyLjQzODI2NSIsInVzZXJfaWQiOiJhZGZlOGZjYi00ZDc4LTQ0MjQtYWNiMi0xNjM2NTJkNDViYmQifQ.6eE_omSslrwp6g2bg2NxB4BpeZ9AtsY7qNDZsuulG44' \
+  -H 'content-length: 539' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Лапа зеленый мера монета постоянный рота другой.","courseId":"601c149c-2a4c-491e-9a05-1b2fb1c0bd92","maxScore":70,"minScore":27,"orderIndex":92,"description":"Художественный славный подземный сходить ручей иной экзамен кпсс. Находить вообще задрать доставать ответить. Спешить через построить командование правый отъезд.","estimatedTime":"1 weeks"}'

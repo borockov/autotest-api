@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjUwLjA0Mzk3OCIsInVzZXJfaWQiOiJhZDhiNzE3My1iMGNiLTQzZTktYWYwYy0zYTNkYmM5NTI4YzMifQ.b96RkBKgJzIg45h9Zu0-XsZMFXKcLaKAGM7L2Q1MkwA' \
+  -H 'content-length: 556' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прошептать эпоха близко разуметься отметить низкий чем.","maxScore":52,"minScore":1,"description":"Доставать коллектив песенка манера обида. Даль провинция иной вскакивать наткнуться способ. Спалить белье терапия заявление нервно граница.","estimatedTime":"1 weeks","previewFileId":"9e56e281-37fe-4522-aafc-ae131530a6c2","createdByUserId":"ad8b7173-b0cb-43e9-af0c-3a3dbc9528c3"}'

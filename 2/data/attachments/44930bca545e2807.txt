@@ -1,0 +1,18 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:80 Check create course response
+INFO     Base Assertions:base.py:33 Check that "title" equals to Прошептать эпоха близко разуметься отметить низкий чем.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 52
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 1
+INFO     Base Assertions:base.py:33 Check that "description" equals to Доставать коллектив песенка манера обида. Даль провинция иной вскакивать наткнуться способ. Спалить белье терапия заявление нервно граница.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 1 weeks
+INFO     Base Assertions:base.py:33 Check that "preview file id" equals to 9e56e281-37fe-4522-aafc-ae131530a6c2
+INFO     Base Assertions:base.py:33 Check that "user id" equals to ad8b7173-b0cb-43e9-af0c-3a3dbc9528c3
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjI4OjQ4LjYzNjU1MiIsInVzZXJfaWQiOiI1NDYzNWE0ZC1jNTQwLTRkMDYtOGY4My1kMmVkNjM4NmY2NDYifQ.p5wWvffNINbswI0YmWb5QNY5aYKUAs1K4wm_jYWnp_0' \
+  -H 'content-length: 605' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Промолчать столетие миллиард горький.","maxScore":69,"minScore":8,"description":"Точно разуметься поздравлять цепочка товар нож зарплата житель. Госпожа дальний хозяйка. Механический прощение еврейский новый сынок тревога. Порядок холодно роса руководитель проход.","estimatedTime":"8 weeks","previewFileId":"8cdebca8-ab68-4714-a591-1afaae18e10a","createdByUserId":"54635a4d-c540-4d06-8f83-d2ed6386f646"}'
