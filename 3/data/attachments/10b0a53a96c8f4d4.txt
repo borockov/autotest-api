@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjQ0OjQ3LjA5NzM5MiIsInVzZXJfaWQiOiI5MzkyY2Q0MS04MGZhLTRhZTItOTU2Ny1iMzA2ZGMxOTUxN2QifQ.s24RUAd2eIGo2Op9Fwtwmq4P6pLjoK8jCKWvrRAQXJU' \
+  -H 'content-length: 452' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Степь человечек поздравлять обида интернет уничтожение.","maxScore":63,"minScore":22,"description":"Кузнец невыносимый пропасть. Нервно роскошный необычный шлем кидать процесс пламя.","estimatedTime":"6 weeks","previewFileId":"c0a2cde0-bb16-45b7-a76f-bcc69a3a19ba","createdByUserId":"9392cd41-80fa-4ae2-9567-b306dc19517d"}'

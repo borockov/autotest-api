@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjQ0OjQzLjI4NTM1OCIsInVzZXJfaWQiOiI2YWM3YzAzMS0wYzgxLTRjYjEtYjU5Yi1jYTU5NjdiZWZlMjYifQ.rKaPNpZU5zed4AzsswnV14ASyf3YPuMsPu4FOeCbwEM' \
+  -H 'content-length: 584' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бочок неправда зато сохранять бегать.","maxScore":96,"minScore":12,"description":"Бегать социалистический при задрать порядок помолчать угроза. Провал изменение каюта протягивать непривычный юный школьный.\nНазначить упорно лапа увеличиваться мелькнуть.","estimatedTime":"7 weeks","previewFileId":"c4e60bee-e1f8-4a82-bf5f-cb3cd6194635","createdByUserId":"6ac7c031-0c81-4cb1-b59b-ca5967befe26"}'

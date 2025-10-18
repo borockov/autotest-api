@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjQ0OjQ2LjgyMzcwMiIsInVzZXJfaWQiOiI1MWJjYWE1Yy0wODM1LTQ2NWItYjUyZC1iN2E2NGUyNjkzNzEifQ.GROEtXJefG2sqFhn0iyhMZYpRvPHLqT8lTsMSGv5U-8' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Школьный услать висеть тесно трубка.","maxScore":90,"minScore":25,"description":"Порода господь человечек палата.\nХозяйка опасность миф горький.","estimatedTime":"1 weeks","previewFileId":"a139cf45-1420-4faf-b099-6d4558d8afe8","createdByUserId":"51bcaa5c-0835-465b-b52d-b7a64e269371"}'

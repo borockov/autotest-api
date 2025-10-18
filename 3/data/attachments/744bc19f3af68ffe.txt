@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjQ0OjQ4LjAyMzAzNyIsInVzZXJfaWQiOiI1MWU2MGVjNC05MmFmLTQ2YWMtOTFmOS01NWZjYzMxMDRkMTkifQ.sAqVPl8jqElTlhEyqonHEPqDT5jcxqYtU36VmaI_4bo' \
+  -H 'content-length: 604' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зеленый господь куча очко жестокий сомнительный труп дружно.","maxScore":50,"minScore":8,"description":"Другой бочок народ командир. Костер выражение космос расстегнуть вскинуть разводить оборот. Протягивать что кольцо неожиданно более социалистический построить.","estimatedTime":"9 weeks","previewFileId":"ea890260-4832-45a4-997e-6d24018f1def","createdByUserId":"51e60ec4-92af-46ac-91f9-55fcc3104d19"}'

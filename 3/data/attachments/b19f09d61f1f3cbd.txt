@@ -1,0 +1,18 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:80 Check create course response
+INFO     Base Assertions:base.py:33 Check that "title" equals to Реклама спичка хотеть доставать мелькнуть инфекция.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 61
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 17
+INFO     Base Assertions:base.py:33 Check that "description" equals to Возможно полоска неожиданно. Угол мрачно аж сбросить точно.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 4 weeks
+INFO     Base Assertions:base.py:33 Check that "preview file id" equals to 47e97779-d4c9-455e-835b-4843f316caca
+INFO     Base Assertions:base.py:33 Check that "user id" equals to 57104660-e2d0-4b2a-8ae1-8b3302d58017
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

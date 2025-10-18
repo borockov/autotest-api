@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/aef21091-b6c9-427f-a39b-9af76b7bc4a2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDA5OjQ0OjQ0LjQyMzE5NiIsInVzZXJfaWQiOiI3OWNiMmUzOC1lYjM4LTQyYzgtOWM0Ny0yM2U4YzM2ODMxMTIifQ.QjdrOrnVOQ6WFZPK6Jwo51akM_OjHVbhvUCBL8e0Wgo' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Руководитель ныне тесно спичка.","maxScore":66,"minScore":9,"description":"Медицина плясать сходить результат сомнительный. Столетие товар сравнение тусклый.","estimatedTime":"2 weeks"}'
