@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAzLjQ4MzE0MSIsInVzZXJfaWQiOiJhMjQ5MjIxZS02ZjhhLTRmNDEtOGI3MC1lYmExOGQ5YTAwZWYifQ.TY4tFUGZpLVBYlWyoxwmz2roiEwdTh-TIBpdtW2e4bc' \
+  -H 'content-length: 460' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Очко строительство четыре.","maxScore":84,"minScore":19,"description":"Наслаждение желание около приходить разуметься приятель казнь. Да смеяться понятный достоинство заведение ответить.","estimatedTime":"8 weeks","previewFileId":"b62689ca-e282-4520-bb4a-80ed44c0e743","createdByUserId":"a249221e-6f8a-4f41-8b70-eba18d9a00ef"}'

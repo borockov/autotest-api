@@ -1,0 +1,21 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:20 Make PATCH request to http://localhost:8000/api/v1/exercises/cc912263-6c15-4a10-9cdf-879f0fb6fb9e
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises/cc912263-6c15-4a10-9cdf-879f0fb6fb9e
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Exercises Assertions:exercises.py:55 Check update exercise response
+INFO     Base Assertions:base.py:33 Check that "title" equals to Салон смертельный видимо написать решение.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 73
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 3
+INFO     Base Assertions:base.py:33 Check that "order_index" equals to 92
+INFO     Base Assertions:base.py:33 Check that "description" equals to Чувство сохранять бак эффект неправда сынок. Вообще желание следовательно. Неожиданный точно слишком заплакать нож слишком.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 2 weeks
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

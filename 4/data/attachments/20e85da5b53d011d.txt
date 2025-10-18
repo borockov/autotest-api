@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAzLjc0MjIxMyIsInVzZXJfaWQiOiJiZTA3YzIzMi02N2Y3LTQwN2UtYjg4NS1hYTk5ZTkxZmUxMzMifQ.RfGF00GNn2hJilBHUuh3Stvr5Wl1slMPJHN5oGIKv_0' \
+  -H 'content-length: 458' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Еврейский некоторый советовать основание.","maxScore":55,"minScore":17,"description":"Сбросить ложиться спичка. Необычный миллиард механический. Манера приходить зеленый решетка спасть.","estimatedTime":"9 weeks","previewFileId":"6be0034a-e7d1-4649-bc7e-33b12eed4144","createdByUserId":"be07c232-67f7-407e-b885-aa99e91fe133"}'

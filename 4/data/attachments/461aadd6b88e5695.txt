@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAzLjQ4MzE0MSIsInVzZXJfaWQiOiJhMjQ5MjIxZS02ZjhhLTRmNDEtOGI3MC1lYmExOGQ5YTAwZWYifQ.TY4tFUGZpLVBYlWyoxwmz2roiEwdTh-TIBpdtW2e4bc' \
+  -H 'content-length: 595' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Развернуться плавно нож выраженный нож непривычный голубчик спорт.","courseId":"c5eeb99d-86fc-486c-9a54-08a325820f4d","maxScore":91,"minScore":19,"orderIndex":72,"description":"Мелочь космос рис сверкать неожиданный бетонный ныне обида. Жестокий хотеть через правление некоторый угодный. Неожиданный прошептать инфекция бетонный уничтожение зеленый.","estimatedTime":"6 weeks"}'

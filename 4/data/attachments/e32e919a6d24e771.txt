@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAyLjMzODgwNCIsInVzZXJfaWQiOiIxYmY4YWMyYS03MjIwLTQ1MTMtODQ5NC05ZDcyN2EwNWFmNzYifQ.bDpwsBfl04kBugzj19hgGMCt_qX6Ja6XlffSc1QoJMU' \
+  -H 'content-length: 667' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дурацкий сохранять интернет отдел услать оставить наступать адвокат.","maxScore":54,"minScore":8,"description":"Применяться скрытый пропаганда выражаться бабочка неправда порог заработать. Призыв предоставить что упор около прежний. Забирать пространство отражение место пропадать пятеро славный.","estimatedTime":"3 weeks","previewFileId":"dc22378d-a4ac-4cec-8d7f-521ef192d26b","createdByUserId":"1bf8ac2a-7220-4513-8494-9d727a05af76"}'

@@ -1,0 +1,24 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/exercises/91560c27-89af-4bc7-9bf5-393d5bbfc4cb
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises/91560c27-89af-4bc7-9bf5-393d5bbfc4cb
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Exercises Assertions:exercises.py:48 Check Get exercise response
+INFO     Exercises Assertions:exercises.py:34 Check exercise
+INFO     Base Assertions:base.py:33 Check that "id" equals to 91560c27-89af-4bc7-9bf5-393d5bbfc4cb
+INFO     Base Assertions:base.py:33 Check that "title" equals to Развернуться плавно нож выраженный нож непривычный голубчик спорт.
+INFO     Base Assertions:base.py:33 Check that "course_id" equals to c5eeb99d-86fc-486c-9a54-08a325820f4d
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 91
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 19
+INFO     Base Assertions:base.py:33 Check that "order_index" equals to 72
+INFO     Base Assertions:base.py:33 Check that "description" equals to Мелочь космос рис сверкать неожиданный бетонный ныне обида. Жестокий хотеть через правление некоторый угодный. Неожиданный прошептать инфекция бетонный уничтожение зеленый.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 6 weeks
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

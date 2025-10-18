@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8b99bd8d-df74-497a-a491-0d28009b6bb3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAxLjE4OTkzNyIsInVzZXJfaWQiOiIyOTNhZjVjMy01OTQ5LTQ5NzQtYWRmZS02ZjM1Y2NjMGZkYjgifQ.P-L0PzWt60qD4Qm65JBaD5G5q7Xm4Qcex3U6-bAdeLA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Премьера очко поезд смеяться посидеть спорт.","maxScore":87,"minScore":6,"description":"Пропадать невыносимый сверкать материя невозможно. Хозяйка кпсс страсть задержать полоска тута. Помимо устройство выбирать.","estimatedTime":"10 weeks"}'

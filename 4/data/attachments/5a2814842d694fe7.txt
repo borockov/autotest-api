@@ -1,0 +1,34 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotest-api/autotest-api/coverage-results
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/courses?userId=38c60f38-e972-4040-8e8e-a04ba1da2a9e
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses?userId=38c60f38-e972-4040-8e8e-a04ba1da2a9e
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:64 Check get courses response
+INFO     Base Assertions:base.py:67 Check that length of "courses" equals to 1
+INFO     Courses Assertions:courses.py:39 Check course
+INFO     Base Assertions:base.py:33 Check that "id" equals to 0bcb31a9-3315-4045-909d-72d8ccbd9b74
+INFO     Base Assertions:base.py:33 Check that "title" equals to Миг армейский природа неправда советовать.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 79
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 29
+INFO     Base Assertions:base.py:33 Check that "description" equals to Факультет что число счастье роскошный экзамен пропадать. Умирать кожа миллиард цепочка запретить. Витрина ломать уронить сомнительный грустный.
+Вздрогнуть неправда коробка роса мотоцикл.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 5 weeks
+INFO     Files Assertions:files.py:39 Check file
+INFO     Base Assertions:base.py:33 Check that "id" equals to 0568fc5f-867b-4dd1-8892-5db36d367447
+INFO     Base Assertions:base.py:33 Check that "url" equals to http://localhost:8000/static/tests/84e3924b-0004-4d1b-bed9-c477c29a0862.png
+INFO     Base Assertions:base.py:33 Check that "filename" equals to 84e3924b-0004-4d1b-bed9-c477c29a0862.png
+INFO     Base Assertions:base.py:33 Check that "directory" equals to tests
+INFO     User Assertions:users.py:36 Check user
+INFO     Base Assertions:base.py:33 Check that "id" equals to 38c60f38-e972-4040-8e8e-a04ba1da2a9e
+INFO     Base Assertions:base.py:33 Check that "email" equals to borisovazari@example.org
+INFO     Base Assertions:base.py:33 Check that "last_name" equals to Игнатова
+INFO     Base Assertions:base.py:33 Check that "first_name" equals to Ульяна
+INFO     Base Assertions:base.py:33 Check that "middle_name" equals to Сидор
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

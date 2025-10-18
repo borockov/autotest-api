@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAxLjQ0OTE0NiIsInVzZXJfaWQiOiJkOTBkYWExZi05MGE4LTRmYWItYTVhMC04MGU0ZGRiOGY0MWUifQ.5Si9y_DQwbtm90bqeIz71YeNO4Zxp3hJOu6ICrPLQqM' \
+  -H 'content-length: 507' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Фонарик неправда крыса важный спорт возможно освободить.","maxScore":59,"minScore":12,"description":"Блин изредка порог разуметься теория сравнение. Подземный зато задержать пропасть помимо идея дремать жестокий.","estimatedTime":"6 weeks","previewFileId":"b0498800-1cbe-4ad8-af3a-f25d8bac63c4","createdByUserId":"d90daa1f-90a8-4fab-a5a0-80e4ddb8f41e"}'

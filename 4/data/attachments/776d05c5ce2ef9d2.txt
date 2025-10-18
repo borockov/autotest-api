@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAwLjEwNjcxOSIsInVzZXJfaWQiOiIzOGM2MGYzOC1lOTcyLTQwNDAtOGU4ZS1hMDRiYTFkYTJhOWUifQ.3vXTnuz8iPBvlrYW1NK6W1YZEXe6ZGJHhGMVkHmgQfk' \
+  -H 'content-length: 622' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Миг армейский природа неправда советовать.","maxScore":79,"minScore":29,"description":"Факультет что число счастье роскошный экзамен пропадать. Умирать кожа миллиард цепочка запретить. Витрина ломать уронить сомнительный грустный.\nВздрогнуть неправда коробка роса мотоцикл.","estimatedTime":"5 weeks","previewFileId":"0568fc5f-867b-4dd1-8892-5db36d367447","createdByUserId":"38c60f38-e972-4040-8e8e-a04ba1da2a9e"}'

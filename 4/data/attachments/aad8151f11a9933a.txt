@@ -1,0 +1,25 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c125ba83-cef7-429e-87fb-94aa804a2926
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c125ba83-cef7-429e-87fb-94aa804a2926
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Exercises Assertions:exercises.py:88 Check get exercises response
+INFO     Base Assertions:base.py:67 Check that length of "courses" equals to 1
+INFO     Exercises Assertions:exercises.py:34 Check exercise
+INFO     Base Assertions:base.py:33 Check that "id" equals to 18c77ff0-4996-40f3-95d9-3ac89bee315b
+INFO     Base Assertions:base.py:33 Check that "title" equals to Мрачно хлеб приятель крутой пересечь уточнить.
+INFO     Base Assertions:base.py:33 Check that "course_id" equals to c125ba83-cef7-429e-87fb-94aa804a2926
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 66
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 6
+INFO     Base Assertions:base.py:33 Check that "order_index" equals to 59
+INFO     Base Assertions:base.py:33 Check that "description" equals to Выражение висеть страсть космос. Пасть эпоха изредка палка порог штаб дьявол. Дурацкий соответствие палка.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 3 weeks
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

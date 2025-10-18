@@ -1,0 +1,20 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP CLIENT:event_hooks.py:20 Make DELETE request to http://localhost:8000/api/v1/exercises/5c26714c-ea40-429f-8149-81666323dbd0
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/exercises/5c26714c-ea40-429f-8149-81666323dbd0
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/exercises/5c26714c-ea40-429f-8149-81666323dbd0
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 404 Not Found from http://localhost:8000/api/v1/exercises/5c26714c-ea40-429f-8149-81666323dbd0
+INFO     Exercises Assertions:exercises.py:72 Check exercise not found response
+INFO     Errors Assertions:errors.py:55 Check internal error response
+INFO     Base Assertions:base.py:33 Check that "details" equals to Exercise not found
+INFO     Base Assertions:base.py:16 Check that response status code equals to 404
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

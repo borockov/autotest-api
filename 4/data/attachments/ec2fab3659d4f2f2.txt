@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjUyOjAyLjU5ODUzMSIsInVzZXJfaWQiOiIyZDYyM2I3YS1jM2M4LTQ2NzMtYWJmZi1hMzdmY2I4NjFmMDUifQ.oW42lIryWhUNPLuKBOZXwwvo6HemxOYdqriK9PB_qMI' \
+  -H 'content-length: 601' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Построить разуметься да боец ремень расстегнуть.","maxScore":78,"minScore":9,"description":"Свежий вперед падаль темнеть порядок грудь.\nБлизко соответствие еврейский протягивать идея порядок монета близко. Зеленый промолчать выкинуть оборот космос сомнительный.","estimatedTime":"1 weeks","previewFileId":"3eb8b84b-e8b2-4ccb-bdc4-f984ea7d407d","createdByUserId":"2d623b7a-c3c8-4673-abff-a37fcb861f05"}'
