@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjEyOjU5LjE4ODAyNSIsInVzZXJfaWQiOiIxOThiNzE4OS1mZjU0LTRiNGEtYjM5Ni1jMzk4YTA2ZDM5OWYifQ.Kvx0Ft6pRHBzWNDw76AxjV4S_TYSj1hjlm3lui3WK7A' \
+  -H 'content-length: 538' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Кузнец похороны невозможно лапа счастье товар.","maxScore":92,"minScore":17,"description":"Видимо бровь возникновение поговорить. Славный падаль угроза набор. Пропаганда сопровождаться дрогнуть прежний. Горький рота прелесть пол.","estimatedTime":"2 weeks","previewFileId":"50b4e6dd-6c46-4e0a-a9f1-1d9d8c36d61c","createdByUserId":"198b7189-ff54-4b4a-b396-c398a06d399f"}'

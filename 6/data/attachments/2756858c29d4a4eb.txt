@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjEyOjU1LjUxMjc5NyIsInVzZXJfaWQiOiIxODQ1MjAzYi00NzU5LTQ5MjgtODU4MC03M2JlN2QwNmZjNWQifQ.epIBj5yZ5WnuMlbHE-mOHNM5orPDfFSiL76ybgC4f9Y' \
+  -H 'content-length: 483' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Банда тяжелый умирать отражение.","maxScore":51,"minScore":28,"description":"Видимо пятеро выразить зима торопливый поколение. Что вчера команда природа написать штаб. Неправда дорогой а исследование.","estimatedTime":"7 weeks","previewFileId":"b2cf0b94-b15d-44c2-9cc3-6a7a881cc9b6","createdByUserId":"1845203b-4759-4928-8580-73be7d06fc5d"}'

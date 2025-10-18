@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjEyOjU4LjU4MTMxMiIsInVzZXJfaWQiOiI0ZmYxYzRlYy03Yjk0LTQ1OWEtODBjMi00ODJkOGY1YzA4NDQifQ.zPLdfg1UOMYsEG3NpmxcgC0wjIww47W83VMKkHJcMVA' \
+  -H 'content-length: 561' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плод мягкий бригада демократия вскинуть.","maxScore":81,"minScore":24,"description":"Тюрьма точно юный деньги палец добиться.\nРавнодушный командование предоставить. Мера выраженный опасность правление построить. Даль заработать невыносимый.","estimatedTime":"2 weeks","previewFileId":"7d39b0cb-72d1-4370-afca-2f57e6ba4d68","createdByUserId":"4ff1c4ec-7b94-459a-80c2-482d8f5c0844"}'

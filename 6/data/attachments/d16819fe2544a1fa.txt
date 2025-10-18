@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjEyOjU2Ljc2MDAyNyIsInVzZXJfaWQiOiIxZDU2NWU5OC1jMzRjLTQwOWYtYTY2Ny1lY2IwMDM1ZGI1OTYifQ.rYF0bGfbN4nCJXpIowIP7BKl7OnoPFzCgE6MxB2FXV4' \
+  -H 'content-length: 600' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неправда потом дьявол карман сверкающий остановить.","maxScore":69,"minScore":25,"description":"Применяться число человечек заложить куча правый возникновение неожиданно. Выраженный число инвалид мимо изменение штаб функция. Лиловый оборот протягивать выкинуть.","estimatedTime":"5 weeks","previewFileId":"d280f1bc-f0b2-4635-b9bb-ab6b02972ccd","createdByUserId":"1d565e98-c34c-409f-a667-ecb0035db596"}'

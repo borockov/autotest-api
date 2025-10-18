@@ -1,0 +1,32 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/courses?userId=f30d47d3-8244-44cd-86d8-70d35ef85f31
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses?userId=f30d47d3-8244-44cd-86d8-70d35ef85f31
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:64 Check get courses response
+INFO     Base Assertions:base.py:67 Check that length of "courses" equals to 1
+INFO     Courses Assertions:courses.py:39 Check course
+INFO     Base Assertions:base.py:33 Check that "id" equals to 4274ab20-78b6-4d1f-a391-27f2f9845b75
+INFO     Base Assertions:base.py:33 Check that "title" equals to Граница актриса салон вытаскивать.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 57
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 11
+INFO     Base Assertions:base.py:33 Check that "description" equals to Премьера анализ плод медицина избегать правление крыса. Вздрагивать миг рота ученый. Серьезный что видимо.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 4 weeks
+INFO     Files Assertions:files.py:39 Check file
+INFO     Base Assertions:base.py:33 Check that "id" equals to f2fe2085-b3f6-409e-a433-d03569f525cb
+INFO     Base Assertions:base.py:33 Check that "url" equals to http://localhost:8000/static/tests/d1ede47b-65ba-49e1-abe6-4f27b87726af.png
+INFO     Base Assertions:base.py:33 Check that "filename" equals to d1ede47b-65ba-49e1-abe6-4f27b87726af.png
+INFO     Base Assertions:base.py:33 Check that "directory" equals to tests
+INFO     User Assertions:users.py:36 Check user
+INFO     Base Assertions:base.py:33 Check that "id" equals to f30d47d3-8244-44cd-86d8-70d35ef85f31
+INFO     Base Assertions:base.py:33 Check that "email" equals to nesterovanadezhda@example.com
+INFO     Base Assertions:base.py:33 Check that "last_name" equals to Фомичев
+INFO     Base Assertions:base.py:33 Check that "first_name" equals to Дементий
+INFO     Base Assertions:base.py:33 Check that "middle_name" equals to Устин
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

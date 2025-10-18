@@ -1,0 +1,19 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:80 Check create course response
+INFO     Base Assertions:base.py:33 Check that "title" equals to Сынок более господь около славный.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 70
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 19
+INFO     Base Assertions:base.py:33 Check that "description" equals to Невыносимый число неожиданный спорт передо.
+Запустить предоставить кольцо сынок отдел. Цель правильный наслаждение художественный голубчик достоинство витрина.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 1 weeks
+INFO     Base Assertions:base.py:33 Check that "preview file id" equals to aa071843-c49f-41ad-88a8-087022b6f944
+INFO     Base Assertions:base.py:33 Check that "user id" equals to d6447451-178b-4ada-8449-0c0059a82025
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema
