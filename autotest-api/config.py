@@ -41,7 +41,7 @@ class Settings(BaseSettings):
         # Передаем allure_results_dir в инициализацию настроек
         return Settings(allure_results_dir=allure_results_dir)
 
-
+#коммент для нового тригера
 # Теперь вызываем метод initialize
 settings = Settings.initialize()
 
