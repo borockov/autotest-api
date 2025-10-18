@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU4Ljk3NTMzNiIsInVzZXJfaWQiOiI4ZWU0MDQ0NC1lMjdlLTQyYjQtYWJmMS0xNWRjZDkzMDkyYjIifQ.WvbfbY3BLNI8fg7OzQMrbG-3wrnp6qX3oZeuYxgbiz0' \
+  -H 'content-length: 476' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Домашний развернуться ложиться.","maxScore":97,"minScore":21,"description":"Спалить житель дошлый человечек привлекать построить. Армейский освободить интернет новый. Пятеро коробка изба полоска.","estimatedTime":"7 weeks","previewFileId":"1cb01d4d-013a-4597-bdc2-79a89bfc0dc6","createdByUserId":"8ee40444-e27e-42b4-abf1-15dcd93092b2"}'

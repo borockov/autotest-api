@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU3LjExNTEyNCIsInVzZXJfaWQiOiI0ZjcwMzJkYy1mZGYwLTRkOWItOTgwZC02NWMzNDBhZDZkMzkifQ.a2JUfH0KoQEXdT9t3pSb36s1m1lyIakPaEhXlgqbV1Y' \
+  -H 'content-length: 618' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мелочь бровь результат миллиард очко.","maxScore":86,"minScore":17,"description":"Заявление задержать народ близко близко число. Мелочь палата витрина уронить кузнец.\nПасть цепочка спорт тревога изображать вытаскивать. Шлем виднеться академик художественный пол миг через.","estimatedTime":"7 weeks","previewFileId":"8c0ba1a9-5304-4804-9f18-2a652edd1179","createdByUserId":"4f7032dc-fdf0-4d9b-980d-65c340ad6d39"}'

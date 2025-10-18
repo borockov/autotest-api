@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU2LjUxNzEzOSIsInVzZXJfaWQiOiJhNzYwYzQzNC1iNzBiLTQ4N2MtOGVlZC05Zjc4MzRiMmE1NGUifQ.53KuHVzF-vfRwshfoDFKdaWDZc7ohE5QbaVh1Go403Q' \
+  -H 'content-length: 616' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Уничтожение лететь правление протягивать космос.","maxScore":58,"minScore":23,"description":"Вздрагивать жидкий исполнять страсть число парень. Угол поставить ночь угроза.\nПоставить естественный витрина направо добиться. Еврейский следовательно возмутиться близко кпсс.","estimatedTime":"5 weeks","previewFileId":"ad898bb1-a093-4e1f-8f0d-715088a33708","createdByUserId":"a760c434-b70b-487c-8eed-9f7834b2a54e"}'

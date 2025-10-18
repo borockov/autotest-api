@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU0LjY5NTIyNCIsInVzZXJfaWQiOiI2M2YzNTU2Ni1hNmI1LTRhODYtODYyMy0yZjUxOTk4NmUyMDEifQ.Bntr0bS8BNHJcYKzkN2aINKzTy5vhfh2s5wCFj8lplg' \
+  -H 'content-length: 519' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ставить счастье хозяйка строительство вытаскивать изображать обида.","maxScore":76,"minScore":19,"description":"Посвятить заложить расстегнуть падать близко тревога. Возможно написать да достоинство демократия близко.","estimatedTime":"1 weeks","previewFileId":"17d3cf9d-8075-40cd-be7d-6686ee6acc4c","createdByUserId":"63f35566-a6b5-4a86-8623-2f519986e201"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU4LjM5MDU1NSIsInVzZXJfaWQiOiI4ZjliNmIxNC1kNGYxLTQ2MWYtYTkyMy0wODU1MTcyN2YxODgifQ.-uWoR_UXAoX7JMRWiqsYcPQpNRAZQLF1sKXMhz-dCQI' \
+  -H 'content-length: 629' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Четыре пропаганда привлекать бабочка выражение выраженный металл.","maxScore":67,"minScore":24,"description":"Неправда цель покинуть кольцо угроза. Табак возмутиться анализ.\nПромолчать посвятить поймать порода намерение дошлый мимо войти. Изображать премьера пятеро плод ягода.","estimatedTime":"7 weeks","previewFileId":"5d575df0-f1da-40bc-b07c-a1db951a835e","createdByUserId":"8f9b6b14-d4f1-461f-a923-08551727f188"}'

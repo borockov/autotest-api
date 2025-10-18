@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE1OjE4OjU1LjI4NDA1NSIsInVzZXJfaWQiOiJiMzZiMGEyYy0yODVmLTQ4YjYtYmVlOS03NjcyOWQ5NmYzMDUifQ.zVmqTOODQA7J6mG6jW1w05TTUO3JEVJEc44lbcq3WeU' \
+  -H 'content-length: 508' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Умолять потом угодный дружно светило запретить.","maxScore":83,"minScore":13,"description":"Угол печатать смелый командование труп правильный порт дорогой. Мрачно парень палка. Четыре космос запустить равнодушный.","estimatedTime":"6 weeks","previewFileId":"ce93dec0-0b0f-474a-9ad7-93595cfcb78b","createdByUserId":"b36b0a2c-285f-48b6-bee9-76729d96f305"}'
