@@ -3,6 +3,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.courses.courses_schema import GetCoursesQuerySchema, CreateCourseRequestSchema, UpdateCourseRequestSchema, \
     CreateCourseResponseSchema
+from clients.api_coverage import tracker
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 import allure
 from tools.routes import APIRoutes
