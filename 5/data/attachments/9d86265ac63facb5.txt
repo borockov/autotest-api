@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5ba09fb7-084f-463c-8ad8-4ee2907fac68' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjMxLjMwODM5MCIsInVzZXJfaWQiOiJhMDcxNDVlZC1iMTE3LTQxYzAtYjhiMC05MTkwOGY3MzQwZmMifQ.HKlv-KvIkuxwjzeNxL1VCNNyM8rM-dxbf04BEszSFFs' \
+  -H 'content-length: 460' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Витрина означать лапа господь решетка.","maxScore":72,"minScore":19,"description":"Пространство поговорить выражение сынок способ металл. Запретить жить спорт заложить механический каюта бегать жидкий. Означать основание монета сутки спасть каюта.","estimatedTime":"4 weeks"}'

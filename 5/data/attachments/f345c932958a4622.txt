@@ -1,0 +1,18 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make PATCH request to http://localhost:8000/api/v1/courses/5ba09fb7-084f-463c-8ad8-4ee2907fac68
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses/5ba09fb7-084f-463c-8ad8-4ee2907fac68
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:21 Check update course response
+INFO     Base Assertions:base.py:33 Check that "title" equals to Витрина означать лапа господь решетка.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 72
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 19
+INFO     Base Assertions:base.py:33 Check that "description" equals to Пространство поговорить выражение сынок способ металл. Запретить жить спорт заложить механический каюта бегать жидкий. Означать основание монета сутки спасть каюта.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 4 weeks
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

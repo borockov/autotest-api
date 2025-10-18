@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjMzLjcyODAyMiIsInVzZXJfaWQiOiI3MThmZGNjMS0wYzBjLTQzNTgtYTZhMC0xOWU5MGNmNjQwNzIifQ.ITf0m1qlRahXe0pmVUYhdgQWEzW4n3bociC6_5DmOe0' \
+  -H 'content-length: 492' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выраженный табак белье около.","maxScore":98,"minScore":12,"description":"Табак около роскошный необычный. Пространство пол потянуться волк. Пространство кожа домашний тесно материя беспомощный сохранять.","estimatedTime":"1 weeks","previewFileId":"84c2619d-974e-4b2c-8c41-32f63e03244a","createdByUserId":"718fdcc1-0c0c-4358-a6a0-19e90cf64072"}'

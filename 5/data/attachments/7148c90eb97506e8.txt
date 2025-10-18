@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjMyLjc5NDE0OSIsInVzZXJfaWQiOiI2MTZhMmY5MC1kMGEyLTQ0YzAtYTdhMi1kNjQzODE3NzFkZDYifQ.uev2jcx2FcVudZ2nn3v3AE2c4h8G01q3D23xhDc0gcU' \
+  -H 'content-length: 627' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пространство инвалид пробовать интернет встать миллиард.","maxScore":97,"minScore":30,"description":"Спичка около дошлый неожиданно невозможно. Заработать угроза вскинуть чем тута академик.\nОдиннадцать радость счастье. Мимо важный песенка интеллектуальный фонарик потянуться.","estimatedTime":"8 weeks","previewFileId":"47c80793-a704-42bc-8657-10ef45626d8b","createdByUserId":"616a2f90-d0a2-44c0-a7a2-d64381771dd6"}'

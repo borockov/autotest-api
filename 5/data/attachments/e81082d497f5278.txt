@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjMzLjcyODAyMiIsInVzZXJfaWQiOiI3MThmZGNjMS0wYzBjLTQzNTgtYTZhMC0xOWU5MGNmNjQwNzIifQ.ITf0m1qlRahXe0pmVUYhdgQWEzW4n3bociC6_5DmOe0' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мальчишка страсть спорт крыса.","courseId":"d70de7d2-061e-46d3-b5a5-345d4230565d","maxScore":55,"minScore":1,"orderIndex":86,"description":"Увеличиваться вряд инвалид. Мучительно витрина анализ ягода бегать. Заявление степь число за правление полюбить порт мелькнуть.","estimatedTime":"1 weeks"}'

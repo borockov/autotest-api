@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjM0LjAwMTYwNSIsInVzZXJfaWQiOiJlMjJkMTkxNS05N2MwLTRhNGQtOTFmMi1jMjcyODA3NDM1MzgifQ.aPJcfehDeW_5yIIrMTkfB7hYdyyI4nKE66FxYVvmtUI' \
+  -H 'content-length: 541' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Палец уронить цель покидать.","courseId":"80d3beee-9c35-4dc3-a781-32aaa21b9a1d","maxScore":73,"minScore":26,"orderIndex":41,"description":"Миллиард мотоцикл смеяться казнь грустный волк угроза.\nРавнодушный трубка команда холодно спалить остановить. Спасть рассуждение слать построить триста полюбить способ механический.","estimatedTime":"6 weeks"}'

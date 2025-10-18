@@ -1,0 +1,33 @@
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotest-api/autotest-api/coverage-results
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP CLIENT:event_hooks.py:20 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP CLIENT:event_hooks.py:20 Make GET request to http://localhost:8000/api/v1/courses?userId=dfac78e5-edab-4c64-98ed-20f62174134b
+INFO     HTTP CLIENT:event_hooks.py:24 GOT Response 200 OK from http://localhost:8000/api/v1/courses?userId=dfac78e5-edab-4c64-98ed-20f62174134b
+INFO     Base Assertions:base.py:16 Check that response status code equals to 200
+INFO     Courses Assertions:courses.py:64 Check get courses response
+INFO     Base Assertions:base.py:67 Check that length of "courses" equals to 1
+INFO     Courses Assertions:courses.py:39 Check course
+INFO     Base Assertions:base.py:33 Check that "id" equals to 9aae725d-cf94-4261-a9d7-1250abcce83c
+INFO     Base Assertions:base.py:33 Check that "title" equals to Багровый адвокат четыре пропаганда.
+INFO     Base Assertions:base.py:33 Check that "max_score" equals to 95
+INFO     Base Assertions:base.py:33 Check that "min_score" equals to 19
+INFO     Base Assertions:base.py:33 Check that "description" equals to Поезд изменение крутой конференция. Тесно инфекция армейский монета. Космос слишком выраженный солнце упор исполнять изменение невозможно.
+INFO     Base Assertions:base.py:33 Check that "estimated_time" equals to 10 weeks
+INFO     Files Assertions:files.py:39 Check file
+INFO     Base Assertions:base.py:33 Check that "id" equals to cd9b6839-da8d-4630-ac5d-5e61c4057a32
+INFO     Base Assertions:base.py:33 Check that "url" equals to http://localhost:8000/static/tests/e4545da0-19b8-47eb-9934-3f92eb43eecd.png
+INFO     Base Assertions:base.py:33 Check that "filename" equals to e4545da0-19b8-47eb-9934-3f92eb43eecd.png
+INFO     Base Assertions:base.py:33 Check that "directory" equals to tests
+INFO     User Assertions:users.py:36 Check user
+INFO     Base Assertions:base.py:33 Check that "id" equals to dfac78e5-edab-4c64-98ed-20f62174134b
+INFO     Base Assertions:base.py:33 Check that "email" equals to konon2007@example.org
+INFO     Base Assertions:base.py:33 Check that "last_name" equals to Прохорова
+INFO     Base Assertions:base.py:33 Check that "first_name" equals to Никанор
+INFO     Base Assertions:base.py:33 Check that "middle_name" equals to Карп
+INFO     Validating JSON Schema:schema.py:20 Validating JSON schema

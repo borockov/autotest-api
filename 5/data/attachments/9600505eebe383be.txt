@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTE4VDE0OjU0OjMyLjc5NDE0OSIsInVzZXJfaWQiOiI2MTZhMmY5MC1kMGEyLTQ0YzAtYTdhMi1kNjQzODE3NzFkZDYifQ.uev2jcx2FcVudZ2nn3v3AE2c4h8G01q3D23xhDc0gcU' \
+  -H 'content-length: 598' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Тысяча прежний господь покидать палата подземный выражение.","courseId":"d68cb188-0d73-4fd4-869b-f5616ac0aed2","maxScore":90,"minScore":17,"orderIndex":39,"description":"Багровый очередной изба сомнительный отметить ботинок. Упорно рота покинуть покинуть армейский отдел. Торопливый новый монета устройство пасть. Разуметься свежий руководитель левый.","estimatedTime":"7 weeks"}'
